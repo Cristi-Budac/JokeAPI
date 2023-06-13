@@ -11,8 +11,7 @@ function renderNumber(number) {
 }
 
 async function getAdvice() {
-  const url =
-    "https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,racist,sexist";
+  const url = "https://api.adviceslip.com/advice";
   let advice = "";
   let number = "";
 
